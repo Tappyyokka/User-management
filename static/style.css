@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    padding: 40px;
+}
+
+h2 {
+    color: #1e293b;
+}
+
+form input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+table {
+    width: 70%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #1e40af;
+    color: white;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flash {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.edit-btn {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}

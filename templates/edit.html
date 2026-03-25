@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit User</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Edit User Details</h2>
+
+<form method="POST" action="/update/{{ user.id }}">
+    <input type="text" name="name" value="{{ user.name }}" required>
+    <input type="email" name="email" value="{{ user.email }}" required>
+    <button type="submit">Update User</button>
+</form>
+
+<br>
+<a href="/">⬅ Back to Home</a>
+
+</body>
+</html>
